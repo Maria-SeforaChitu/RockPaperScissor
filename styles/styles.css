@@ -1,0 +1,57 @@
+body {
+  background-color: #ccc;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: solid;
+  color: #1f3697;
+  font-size: small;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3em;
+  transition: 100ms;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-size: 2em;
+  color: #1f3697;
+}
+
+.result-score {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  color: royalblue;
+}
+
+.result-selection {
+  opacity: 0.3;
+}
+
+.result-selection.winner {
+  opacity: 1;
+  font-size: 3.5rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework - Rock, paper, scissors game</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header"><h1>Rock, paper, scissors game</h1></header>
+    <div class="selections">
+      <button class="selection" data-selection="paper">✋</button>
+      <button class="selection" data-selection="rock">✊</button>
+      <button class="selection" data-selection="scissors">✌️</button>
+    </div>
+    <div class="results">
+      <div>
+        You
+        <span class="result-score" data-user-score>0</span>
+      </div>
+      <div>
+        Computer
+        <span class="result-score" data-computer-score>0</span>
+      </div>
+      <div class="result-selection" user-result></div>
+      <div class="result-selection" computer-result></div>
+    </div>
+  </body>
+</html>
